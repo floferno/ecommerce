@@ -325,7 +325,7 @@ span.text-red {
   float: right;
   padding: 40px 10px;
   position: relative;
-
+  transition: 0.5s;
 }
 
 .footer-container {
@@ -484,6 +484,11 @@ span.text-red {
   color: #324d67;
 
 }
+
+@media product-detail-container and (min-width: 480px) and (max-width: 768px) {
+  
+}
+
 
 .product-detail-image {
   border-radius: 15px;
